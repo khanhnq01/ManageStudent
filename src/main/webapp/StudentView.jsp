@@ -15,15 +15,15 @@
     String name = request.getParameter("name");
     String email = request.getParameter("email");
     String id = request.getParameter("idStudent");
-    String mathScore = request.getParameter("mathScore");
+    String mathScore =  request.getParameter("mathScore");
     String engScore = request.getParameter("engScore");
     String liteScore = request.getParameter("liteScore");
 
-    double mathScoreInt = (double) Integer.parseInt(mathScore);
-    double engScoreInt = Integer.parseInt(engScore);
-    double liteScoreInt = Integer.parseInt(liteScore);
+    double mathScoreInt =  Double.parseDouble(mathScore);
+    double engScoreInt = Double.parseDouble(engScore);
+    double liteScoreInt = Double.parseDouble(liteScore);
 
-    double avgScore = (double) (mathScoreInt + engScoreInt + liteScoreInt)/3;
+    double avgScore = Math.round((mathScoreInt + engScoreInt + liteScoreInt)/3);
   %>
     <h1>Thong tin hoc sinh</h1>
 <div>

@@ -35,17 +35,17 @@
         <td>
         <div class="mb-3">
             <label for="inputMathScore" class="form-label">Diem Toan</label>
-            <input type="number" class="form-control" id="inputMathScore" name="mathScore">
+            <input type="text" class="form-control" id="inputMathScore" name="mathScore">
         </div>
 
         <div class="mb-3">
             <label for="inputLiteScore" class="form-label">Diem Van</label>
-            <input type="number" class="form-control" id="inputLiteScore" name="liteScore">
+            <input type="text" class="form-control" id="inputLiteScore" name="liteScore">
         </div>
 
         <div class="mb-3">
             <label for="inputEngScore" class="form-label">Diem Anh Van</label>
-            <input type="number" class="form-control" id="inputEngScore" name="engScore">
+            <input type="text" class="form-control" id="inputEngScore" name="engScore">
         </div>
         </td>
         </tr>
